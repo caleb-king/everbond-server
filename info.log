@@ -1,0 +1,7 @@
+{"message":"Unable to acquire a connection","level":"error"}
+{"message":"insert into \"bonds\" (\"birthday\", \"name\", \"notes\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"bonds_pkey\"","level":"error"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"select * from \"bookmarks\" where \"id\" = $1 limit $2 - relation \"bookmarks\" does not exist","level":"error"}
+{"message":"Bookmark with id 4 not found.","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - duplicate key value violates unique constraint \"interactions_pkey\"","level":"error"}
+{"message":"Interaction with id 9 created.","level":"info"}
