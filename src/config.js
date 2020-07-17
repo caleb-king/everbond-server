@@ -6,5 +6,5 @@ module.exports = {
     'postgresql://everbond:Password@localhost/everbond',
   TEST_DATABASE_URL:
     'postgresql://everbond-test:Password@localhost/everbond-test',
-  CLIENT_ORIGIN: 'https://everbond.now.sh/',
+  CLIENT_ORIGIN: 'https://everbond.now.sh',
 };
