@@ -1,7 +1,7 @@
 const knex = require('knex');
 const fixtures = require('./interactions-fixtures');
 const app = require('../src/app');
-const { TEST_DB_URL } = require('../src/config');
+const { TEST_DATABASE_URL } = require('../src/config');
 
 describe('Interactions Endpoints', () => {
   let db;
@@ -9,7 +9,7 @@ describe('Interactions Endpoints', () => {
   before('make knex instance', () => {
     db = knex({
       client: 'pg',
-      connection: TEST_DB_URL,
+      connection: TEST_DATABASE_URL,
     });
     app.set('db', db);
   });

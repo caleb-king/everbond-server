@@ -418,3 +418,12 @@
 {"message":"Interaction with id 22 created.","level":"info"}
 {"message":"Bond with id 9 created.","level":"info"}
 {"message":"Interaction with id 23 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 81 created.","level":"info"}
+{"message":"Bond with id 82 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
