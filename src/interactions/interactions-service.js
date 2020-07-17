@@ -1,6 +1,9 @@
 const InteractionsService = {
   getAllInteractions(knex) {
-    return knex.select('*').from('interactions');
+    return knex
+      .select('*')
+      .from('interactions')
+      .orderBy('date', 'desc');
   },
   getById(knex, id) {
     return knex

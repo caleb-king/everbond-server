@@ -8,9 +8,9 @@ const bodyParser = express.json();
 
 const serializeInteraction = interaction => ({
   id: interaction.id,
-  bondId: xss(interaction.bondId),
+  bondId: parseInt(interaction.bondId, 10),
   date: interaction.date,
-  medium: xss(interaction.medium),
+  medium: interaction.medium,
   location: xss(interaction.location),
   description: xss(interaction.description),
 });

@@ -5,3 +5,416 @@
 {"message":"Bookmark with id 4 not found.","level":"error"}
 {"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - duplicate key value violates unique constraint \"interactions_pkey\"","level":"error"}
 {"message":"Interaction with id 9 created.","level":"info"}
+{"message":"insert into \"bonds\" (\"birthday\", \"name\", \"notes\") values ($1, $2, $3) returning * - duplicate key value violates unique constraint \"bonds_pkey\"","level":"error"}
+{"message":"Bond with id 4 created.","level":"info"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"Bond with id 6 created.","level":"info"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - invalid input value for enum medium_type: \"letter\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, DEFAULT) returning * - null value in column \"medium\" violates not-null constraint","level":"error"}
+{"message":"Interaction with id 11 created.","level":"info"}
+{"message":"Interaction with id 12 created.","level":"info"}
+{"message":"Interaction with id 8 created.","level":"info"}
+{"message":"Interaction with id 9 created.","level":"info"}
+{"message":"Interaction with id 10 created.","level":"info"}
+{"message":"Interaction with id 11 created.","level":"info"}
+{"message":"update \"interactions\" set \"bondId\" = $1, \"date\" = $2, \"medium\" = $3, \"location\" = $4, \"description\" = $5 where \"id\" = $6 - invalid input syntax for type integer: \"Mom\"","level":"error"}
+{"message":"Interaction with id 12 created.","level":"info"}
+{"message":"Interaction with id 13 created.","level":"info"}
+{"message":"Interaction with id 14 created.","level":"info"}
+{"message":"Interaction with id 15 created.","level":"info"}
+{"message":"Bond with id 4 created.","level":"info"}
+{"message":"Interaction with id 16 created.","level":"info"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"Interaction with id 17 created.","level":"info"}
+{"message":"Interaction with id 18 created.","level":"info"}
+{"message":"Bond with id 4 created.","level":"info"}
+{"message":"Interaction with id 8 created.","level":"info"}
+{"message":"Interaction with id 9 created.","level":"info"}
+{"message":"connect ECONNREFUSED 127.0.0.1:5432","level":"error"}
+{"message":"connect ECONNREFUSED 127.0.0.1:5432","level":"error"}
+{"message":"Interaction with id 10 created.","level":"info"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"Interaction with id 11 created.","level":"info"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"Bond with id 6 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 1 created.","level":"info"}
+{"message":"Bond with id 2 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 3 created.","level":"info"}
+{"message":"Bond with id 4 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"Bond with id 6 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 7 created.","level":"info"}
+{"message":"Bond with id 8 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - invalid input value for enum medium_type: \"Naughty naughty very naughty <script>alert(\"xss\");</script>\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 9 created.","level":"info"}
+{"message":"Bond with id 10 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 11 created.","level":"info"}
+{"message":"Bond with id 12 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 13 created.","level":"info"}
+{"message":"Bond with id 14 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 15 created.","level":"info"}
+{"message":"Bond with id 16 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 17 created.","level":"info"}
+{"message":"Bond with id 18 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 19 created.","level":"info"}
+{"message":"Bond with id 20 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 21 created.","level":"info"}
+{"message":"Bond with id 22 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 23 created.","level":"info"}
+{"message":"Bond with id 24 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 25 created.","level":"info"}
+{"message":"Bond with id 26 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 27 created.","level":"info"}
+{"message":"Bond with id 28 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 29 created.","level":"info"}
+{"message":"Bond with id 30 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 31 created.","level":"info"}
+{"message":"Bond with id 32 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 33 created.","level":"info"}
+{"message":"Bond with id 34 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 35 created.","level":"info"}
+{"message":"Bond with id 36 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 37 created.","level":"info"}
+{"message":"Bond with id 38 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 39 created.","level":"info"}
+{"message":"Bond with id 40 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 41 created.","level":"info"}
+{"message":"Bond with id 42 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 43 created.","level":"info"}
+{"message":"Bond with id 44 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 45 created.","level":"info"}
+{"message":"Bond with id 46 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 47 created.","level":"info"}
+{"message":"Bond with id 48 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 49 created.","level":"info"}
+{"message":"Bond with id 50 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"insert into \"interactions\" (\"bondId\", \"date\", \"description\", \"location\", \"medium\") values ($1, $2, $3, $4, $5) returning * - insert or update on table \"interactions\" violates foreign key constraint \"interactions_bondId_fkey\"","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 51 created.","level":"info"}
+{"message":"Bond with id 52 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 53 created.","level":"info"}
+{"message":"Bond with id 54 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 55 created.","level":"info"}
+{"message":"Bond with id 56 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 57 created.","level":"info"}
+{"message":"Bond with id 58 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 59 created.","level":"info"}
+{"message":"Bond with id 60 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 61 created.","level":"info"}
+{"message":"Bond with id 62 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 63 created.","level":"info"}
+{"message":"Bond with id 64 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 65 created.","level":"info"}
+{"message":"Bond with id 66 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 67 created.","level":"info"}
+{"message":"Bond with id 68 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 69 created.","level":"info"}
+{"message":"Bond with id 70 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 71 created.","level":"info"}
+{"message":"Bond with id 72 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 73 created.","level":"info"}
+{"message":"Bond with id 74 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 75 created.","level":"info"}
+{"message":"Bond with id 76 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 8 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 77 created.","level":"info"}
+{"message":"Bond with id 78 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 79 created.","level":"info"}
+{"message":"Bond with id 80 created.","level":"info"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 9 created.","level":"info"}
+{"message":"Bond with id 4 created.","level":"info"}
+{"message":"Interaction with id 10 created.","level":"info"}
+{"message":"Interaction with id 11 created.","level":"info"}
+{"message":"Interaction with id 12 created.","level":"info"}
+{"message":"Interaction with id 13 created.","level":"info"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"Interaction with id 14 created.","level":"info"}
+{"message":"Interaction with id 15 created.","level":"info"}
+{"message":"Interaction with id 16 created.","level":"info"}
+{"message":"Bond with id 6 created.","level":"info"}
+{"message":"Interaction with id 17 created.","level":"info"}
+{"message":"Interaction with id 18 created.","level":"info"}
+{"message":"Interaction with id 19 created.","level":"info"}
+{"message":"Interaction with id 20 created.","level":"info"}
+{"message":"Bond with id 7 created.","level":"info"}
+{"message":"Interaction with id 21 created.","level":"info"}
+{"message":"Bond with id 8 created.","level":"info"}
+{"message":"Interaction with id 22 created.","level":"info"}
+{"message":"Bond with id 9 created.","level":"info"}
+{"message":"Interaction with id 23 created.","level":"info"}

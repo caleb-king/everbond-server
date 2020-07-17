@@ -30,8 +30,6 @@ bondsRouter
       return res.status(400).send(`'name' is required`);
     }
 
-    // data validation -> birthday
-
     const newBond = { name, birthday, notes };
 
     BondsService.insertBond(req.app.get('db'), newBond)
