@@ -1,17 +1,54 @@
-# Express Boilerplate!
+# EverBond API
 
-This is a boilerplate project used for starting new projects!
+## Resources
 
-## Set up
+There are two main resources accessible through the EverBond API:
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+1) Bonds
+2) Interactions
 
-1. Clone this repository to your local machine `git clone https://github.com/caleb-king/express-boilerplate.git NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+An example bond:
+> {<br>
+  id: 3 ,<br>
+  name: 'Grandma' ,<br>
+  birthday: '02/18' ,<br>
+  notes:
+    'Loves to get hand written letters. Also enjoys Facebook messages.' ,<br>
+}
+
+An example interaction:
+> {<br>
+  id: 7 ,<br>
+  bondId: 1 ,<br>
+  date: '2020-06-17' ,<br>
+  medium: 'Phone Call' ,<br>
+  location: '' ,<br>
+  description:
+  "We reflected on how well Papa's birthday surprise went over." ,<br>
+}
+## Available Endpoints
+
+### Base URL : `'http//sleepy-bastion-27432.herokuapp.com'`
+
+### Route: `/bonds`
+
+* `GET '/bonds'`
+* `POST '/bonds'`
+
+### Route: `/bonds/:bondId`
+
+* `GET '/bonds/:bondId'`
+* `PATCH '/bonds/:bondId'`
+
+### Route: `/interactions`
+
+* `GET '/interactions'`
+* `POST '/interactions'`
+
+### Route: `/interactions/:interactionId`
+
+* `GET '/interactions/:interactionId'`
+* `PATCH '/interactions/:interactionId'`
 
 ## Scripts
 
@@ -20,7 +57,3 @@ Start the application `npm start`
 Start nodemon for the application `npm run dev`
 
 Run the tests `npm test`
-
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
