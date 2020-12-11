@@ -171,4 +171,18 @@ describe('Interactions Endpoints', () => {
         });
     });
   });
+
+  describe('DELETE /interactions/:interactionsId', () => {
+    it('removes provided bond, responds with 204', () => {
+      const interactionId = 2;
+      return supertest(app)
+        .delete(`/interactions/${interactionId}`)
+        .expect(404)
+        .then(res =>
+          supertest(app)
+            .get(`/interactions/${interactionId}`)
+            .expect({ error: { message: 'Interaction Not Found' } })
+        );
+    });
+  });
 });

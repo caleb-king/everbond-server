@@ -21,6 +21,12 @@ const BondsService = {
       .where({ id })
       .update(newBondFields);
   },
+  deleteBond(knex, id) {
+    return knex
+      .from('bonds')
+      .where('id', id)
+      .delete();
+  },
 };
 
 module.exports = BondsService;

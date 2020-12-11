@@ -427,3 +427,90 @@
 {"message":"date is required","level":"error"}
 {"message":"Interaction with id 1 created.","level":"info"}
 {"message":"Interaction with id 1 created.","level":"info"}
+{"message":"connect ECONNREFUSED 127.0.0.1:5432","level":"error"}
+{"message":"connect ECONNREFUSED 127.0.0.1:5432","level":"error"}
+{"message":"connect ECONNREFUSED 127.0.0.1:5432","level":"error"}
+{"message":"connect ECONNREFUSED 127.0.0.1:5432","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 1 created.","level":"info"}
+{"message":"Bond with id 2 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 3 created.","level":"info"}
+{"message":"Bond with id 4 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 5 created.","level":"info"}
+{"message":"Bond with id 6 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 7 created.","level":"info"}
+{"message":"Bond with id 8 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 9 created.","level":"info"}
+{"message":"Bond with id 10 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 11 created.","level":"info"}
+{"message":"Bond with id 12 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"Bond with id 123 not found.","level":"error"}
+{"message":"name is required","level":"error"}
+{"message":"Bond with id 13 created.","level":"info"}
+{"message":"Bond with id 14 created.","level":"info"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Bond with id 2 not found.","level":"error"}
+{"message":"Interaction with id 123 not found.","level":"error"}
+{"message":"bondId is required","level":"error"}
+{"message":"date is required","level":"error"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 1 created.","level":"info"}
+{"message":"Interaction with id 2 not found.","level":"error"}
+{"message":"Interaction with id 2 not found.","level":"error"}

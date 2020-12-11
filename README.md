@@ -39,6 +39,7 @@ An example interaction:
 
 * `GET '/bonds/:bondId'`
 * `PATCH '/bonds/:bondId'`
+* `DELETE '/bonds/:bondId'`
 
 ### Route: `/interactions`
 
@@ -49,6 +50,7 @@ An example interaction:
 
 * `GET '/interactions/:interactionId'`
 * `PATCH '/interactions/:interactionId'`
+* `DELETE '/interactions/:interactionId'`
 
 ## Scripts
 

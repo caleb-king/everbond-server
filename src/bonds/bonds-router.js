@@ -76,6 +76,13 @@ bondsRouter
         res.status(204).end();
       })
       .catch(next);
+  })
+  .delete((req, res, next) => {
+    BondsService.deleteBond(req.app.get('db'), req.params.bondId)
+      .then(() => {
+        res.status(204).end();
+      })
+      .catch(next);
   });
 
 module.exports = bondsRouter;

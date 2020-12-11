@@ -29,7 +29,7 @@ app.use(bondsRouter);
 app.use(interactionsRouter);
 
 app.get('/', (req, res) => {
-  res.send('Hello, from Caleb!');
+  res.send('Hello, world!');
 });
 
 app.use(errorHandler);

@@ -100,6 +100,16 @@ interactionsRouter
         res.status(204).end();
       })
       .catch(next);
+  })
+  .delete((req, res, next) => {
+    InteractionsService.deleteInteraction(
+      req.app.get('db'),
+      req.params.interactionId
+    )
+      .then(() => {
+        res.status(204).end();
+      })
+      .catch(next);
   });
 
 module.exports = interactionsRouter;

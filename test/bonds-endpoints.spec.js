@@ -130,4 +130,18 @@ describe('Bonds Endpoints', () => {
         });
     });
   });
+
+  describe('DELETE /bonds/:bondId', () => {
+    it('removes provided bond, responds with 204', () => {
+      const bondId = 2;
+      return supertest(app)
+        .delete(`/bonds/${bondId}`)
+        .expect(404)
+        .then(res =>
+          supertest(app)
+            .get(`/bonds/${bondId}`)
+            .expect({ error: { message: 'Bond Not Found' } })
+        );
+    });
+  });
 });

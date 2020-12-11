@@ -24,6 +24,12 @@ const InteractionsService = {
       .where({ id })
       .update(newInteractionFields);
   },
+  deleteInteraction(knex, id) {
+    return knex
+      .from('interactions')
+      .where({ id })
+      .delete();
+  },
 };
 
 module.exports = InteractionsService;
